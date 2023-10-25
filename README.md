@@ -1,5 +1,9 @@
 # ESP_METAR - ESP-32 Based Aviation Weather Map
 
+## Updates
+
+10/25/2023 - Initial deployment, this includes a recent change to the AviationWeather.gov site which 403'd previous versions
+
 ## Core harware
 
 * **ESP-32** - This branch is intended to be a minimum MetarMap implimentation running on any
