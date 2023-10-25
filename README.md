@@ -3,17 +3,16 @@
 ## Core harware
 
 * **ESP-32** - This branch is intended to be a minimum MetarMap implimentation running on any
-* ESP-32 platform.  Typical implimentation is using a feather clone.
+  ESP-32 platform.  Typical implimentation is using a feather clone.
 
 * **Make it yours**
   * Update your network SSID & Password in the wifi_config.h file
   * Update the list of airports you wish to monitor
 
 * **Firmware build**
-* - Clone this repository
-  - Build using Platformio, it should pull all required dependencies
-  - Download to your ESP-32 device using platformio tools
-
+  * Clone this repository
+  * Build using Platformio, it should pull all required dependencies
+  * Download to your ESP-32 device using platformio tools
 
 * **WS2812B-F5 LEDs** - One per airport/weather station.  
   These are RGB "neo pixels" in a standard 5mm LED form factor.  They have 
